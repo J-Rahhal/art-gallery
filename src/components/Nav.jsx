@@ -9,7 +9,7 @@ const Nav = () => {
     setToggle(!toggle);
   };
   return (
-    <div className="p-4 md:p-8 ">
+    <div className="p-4  ">
       <div className="hidden md:flex md:items-center md:justify-between ">
         <ul className="h-full w-3/4 flex items-center justify-start gap-24 bg-white">
           <a href="#home" className="cursor-pointer">
