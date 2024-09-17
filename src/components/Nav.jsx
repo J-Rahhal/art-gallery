@@ -11,7 +11,7 @@ const Nav = () => {
   return (
     <div className="p-4  ">
       <div className="hidden md:flex md:items-center md:justify-between ">
-        <ul className="h-full w-3/4 flex items-center justify-start gap-24 bg-white">
+        <ul className="h-full w-3/4 flex items-center justify-start gap-24 bg-white lg:text-xl">
           <a href="#home" className="cursor-pointer">
             <li>Home</li>
           </a>
@@ -19,8 +19,8 @@ const Nav = () => {
             <li>Collection</li>
           </a>
         </ul>
-        <p className="font-bold lg:text-xl">Orion Gallery</p>
-        <ul className="h-full w-3/4 flex items-center justify-end gap-24 bg-white">
+        <p className="font-bold lg:text-2xl">Orion Gallery</p>
+        <ul className="h-full w-3/4 flex items-center justify-end gap-24 bg-white lg:text-xl">
           <a href="#event" className="cursor-pointer">
             <li>Event</li>
           </a>
