@@ -5,11 +5,11 @@ const Events = () => {
   return (
     <div className="flex flex-col items-center justify-center  " id="events">
       <div className="py-4 md:my-12 border-t-4 bg-black text-white w-full">
-        <h2 className="font-bold text-2xl md:text-3xl lg:text-5xl text-center">
+        <h2 className="font-bold text-2xl md:text-3xl lg:text-5xl text-center overflow-hidden">
           Events In London
         </h2>
       </div>
-      <div className="grid grid-cols-1 my-8 gap-4 md:grid-cols-2 md:gap-24 lg:gap-48 md:mx-8 lg:mx-12">
+      <div className="grid grid-cols-1 m-8 gap-4 md:grid-cols-2 md:gap-24 lg:gap-48 md:mx-8 lg:mx-12 md:w-1/2">
         {EventsInfo.map((event) => {
           return (
             <div
