@@ -66,7 +66,7 @@ const ArtistCarousel = ({ slides }) => {
                   className="h-full w-auto object-cover rounded-xl"
                 />
               </div>
-              <div className="absolute bottom-2 left-2 bg-gray-400 lg:p-2">
+              <div className="rounded-xl absolute bottom-2 left-2 bg-gray-400 md:p-1 lg:p-2">
                 <p className="text-sm font-bold md:text-lg lg:text-xl">
                   {slide.name}
                 </p>

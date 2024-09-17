@@ -3,7 +3,7 @@ import Director from "../assets/director.jpg";
 
 const About = () => {
   return (
-    <div className="border-t-4">
+    <div className="border-t-4" id="about">
       <div className="md:flex md:flex-col md:items-start">
         <button className="mx-5 mt-10 py-2 px-6 border border-black rounded-full font-semibold">
           Orion Gallery

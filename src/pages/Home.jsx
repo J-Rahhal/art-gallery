@@ -7,13 +7,13 @@ import About from "../components/About";
 
 const Home = () => {
   return (
-    <div className="min-h-screen">
+    <>
       <Header />
       <TopPieces />
       <MeetOurArtists />
       <Events />
       <About />
-    </div>
+    </>
   );
 };
 

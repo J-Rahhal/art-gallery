@@ -9,13 +9,16 @@ const Events = () => {
           Events In London
         </h2>
       </div>
-      <div className="grid grid-cols-1 m-8 gap-4 md:grid-cols-2 md:gap-24 lg:gap-48 md:mx-8 lg:mx-12 md:w-1/2">
+      <div className="grid grid-cols-1 m-8 gap-4 md:grid-cols-2 md:gap-24 lg:gap-48 md:mx-8 lg:mx-12">
         {EventsInfo.map((event) => {
           return (
             <div
               key={event.location}
               className="border-4  border-black rounded-xl flex flex-col items-center font-bold py-4 relative overflow-hidden"
             >
+              <p className="w-full text-white bg-black text-center py-2 absolute top-0 text-lg md:text-xl lg:text-3xl">
+                Coming Soon
+              </p>
               <h2 className="absolute h-full flex items-center justify-center text-6xl text-black">
                 OG
               </h2>

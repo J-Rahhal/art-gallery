@@ -16,7 +16,14 @@ const Header = () => {
             our artists draw inspiration from cultures, natures, and everyday
             life
           </p>
-          <button className=" text-xs p-2 border-black bg-gray-500 rounded-full cursor-pointer md:text-lg md:mb-10 lg:text-xl">
+          <button
+            onClick={() =>
+              document
+                .getElementById("events")
+                .scrollIntoView({ behavior: "smooth" })
+            }
+            className=" text-xs p-2 border-black bg-gray-500 rounded-full cursor-pointer md:text-lg md:mb-10 lg:text-xl"
+          >
             view Events
           </button>
         </div>
