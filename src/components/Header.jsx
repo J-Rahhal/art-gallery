@@ -17,7 +17,7 @@ const Header = () => {
             life
           </p>
           <button className=" text-xs p-2 border-black bg-gray-500 rounded-full cursor-pointer md:text-lg md:mb-10 lg:text-xl">
-            Visit Collection
+            view Events
           </button>
         </div>
       </div>

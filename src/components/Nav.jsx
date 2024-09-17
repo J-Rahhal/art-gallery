@@ -9,6 +9,11 @@ const Nav = () => {
   const handleToggle = () => {
     setToggle(!toggle);
   };
+
+  const handleNavigation = (event) => {
+    event.preventDefault();
+    handleToggle();
+  };
   return (
     <div className="p-4  ">
       <div className="hidden md:flex md:items-center md:justify-between ">
@@ -51,14 +56,18 @@ const Nav = () => {
               <a href="#home" className="cursor-pointer">
                 <li>Home</li>
               </a>
-              <a href="#meet-our-artists" className="cursor-pointer">
+              <a
+                href="#meet-our-artists"
+                onClick={handleNavigation}
+                className="cursor-pointer"
+              >
                 <li>Meet Our Artists</li>
               </a>
               <a href="#event" className="cursor-pointer">
-                <li>Event</li>
+                <li onClick={handleNavigation}>Event</li>
               </a>
               <a href="#about" className="cursor-pointer">
-                <li>About Us</li>
+                <li onClick={handleNavigation}>About Us</li>
               </a>
             </ul>
           </div>

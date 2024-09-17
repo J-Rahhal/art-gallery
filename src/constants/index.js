@@ -13,6 +13,8 @@ import artist4 from "../assets/artists/artist4.jpg";
 import artist5 from "../assets/artists/artist5.jpg";
 import artist6 from "../assets/artists/artist6.jpg";
 
+import EventImg from "../assets/eventFlyer/event.png";
+
 export const SliderHeader = [
   {
     id: 0,
@@ -66,7 +68,7 @@ export const Artists = [
   },
   {
     name: "Marcel Thane",
-    bio: "A painter known for his textured, multi-layered canvases that explore the intersection of light and shadow. His works are often described as ethereal, capturing fleeting moments in nature through abstract forms.",
+    bio: "A painter and sculpter known for her textured, multi-layered canvases that explore the intersection of light and shadow and amazing sculptures. Her works are often described as ethereal, capturing fleeting moments in nature through abstract forms.",
     image: artist6,
   },
   {
@@ -79,5 +81,32 @@ export const Artists = [
     name: "Renée Duvall",
     bio: "surrealist painter, She often merges elements of nature with the human form, creating dreamlike, poetic scenes. Her use of soft, flowing lines and muted tones gives her work a delicate, otherworldly quality",
     image: artist4,
+  },
+];
+
+export const EventsInfo = [
+  {
+    name: "Hidden Dimentions",
+    location: "Southbank Centre",
+    date: "Dec 12-Jan 5, 2025",
+    img: EventImg,
+  },
+  {
+    name: "Hidden Dimentions",
+    location: "Royal Academy of Arts",
+    date: "Jan 20-Feb 1, 2025",
+    img: EventImg,
+  },
+  {
+    name: "Hidden Dimentions",
+    location: "Shoreditch",
+    date: "Feb 16-Feb 26, 2025",
+    img: EventImg,
+  },
+  {
+    name: "Hidden Dimentions",
+    location: "Tate Modern",
+    date: "Mar 13-Mar 23, 2025",
+    img: EventImg,
   },
 ];
