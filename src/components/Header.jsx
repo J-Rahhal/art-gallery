@@ -11,7 +11,7 @@ const Header = () => {
           Dive Into Creativity With Our Gallery Collection
         </h1>
         <div className=" h-1/2 flex items-center  flex-col justify-end gap-4 md:flex-row md:justify-between md:items-end md:m-4 ">
-          <p className="text-xs text-gray-300 text-center w-3/4 md:text-lg md:w-1/2 lg:text-2xl lg:w-1/3">
+          <p className="text-xs text-gray-300 text-center w-1/2 md:text-lg lg:text-2xl lg:w-1/3">
             Immerse yourself in the captivating stories behind each artwork, as
             our artists draw inspiration from cultures, natures, and everyday
             life
