@@ -31,8 +31,10 @@ const Nav = () => {
           Orion Gallery
         </Link>
         <ul className="h-full w-3/4 flex items-center justify-end gap-24 bg-white lg:text-xl">
-          <a href="#event" className="cursor-pointer">
-            <li className=" hover:underline hover:underline-offset-4">Event</li>
+          <a href="#events" className="cursor-pointer">
+            <li className=" hover:underline hover:underline-offset-4">
+              Events
+            </li>
           </a>
           <a href="#about" className="cursor-pointer">
             <li className=" hover:underline hover:underline-offset-4">
@@ -63,8 +65,8 @@ const Nav = () => {
               >
                 <li>Meet Our Artists</li>
               </a>
-              <a href="#event" className="cursor-pointer">
-                <li onClick={handleNavigation}>Event</li>
+              <a href="#events" className="cursor-pointer">
+                <li onClick={handleNavigation}>Events</li>
               </a>
               <a href="#about" className="cursor-pointer">
                 <li onClick={handleNavigation}>About Us</li>
