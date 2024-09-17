@@ -16,9 +16,9 @@ const Nav = () => {
           <a href="#home" className="cursor-pointer">
             <li className=" hover:underline hover:underline-offset-4">Home</li>
           </a>
-          <a href="collection" className="cursor-pointer">
+          <a href="#meet-our-artists" className="cursor-pointer">
             <li className=" hover:underline hover:underline-offset-4">
-              Collection
+              Meet Our Artists
             </li>
           </a>
         </ul>
@@ -51,8 +51,8 @@ const Nav = () => {
               <a href="#home" className="cursor-pointer">
                 <li>Home</li>
               </a>
-              <a href="collection" className="cursor-pointer">
-                <li>Collection</li>
+              <a href="#meet-our-artists" className="cursor-pointer">
+                <li>Meet Our Artists</li>
               </a>
               <a href="#event" className="cursor-pointer">
                 <li>Event</li>

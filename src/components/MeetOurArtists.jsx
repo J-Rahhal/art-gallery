@@ -4,7 +4,7 @@ import { Artists } from "../constants";
 
 const MeetOurArtists = () => {
   return (
-    <div className="bg-black text-white p-4">
+    <div className="bg-black text-white p-4" id="meet-our-artists">
       <button className="m-2 px-4 py-2 border-2 border-white rounded-full cursor-none">
         Artists
       </button>
@@ -13,8 +13,8 @@ const MeetOurArtists = () => {
           Meet Our Artists
         </h3>
         <p className="text-xs text-gray-400 w-1/2 text-center md:text-right md:text-lg lg:w-1/3 lg:text-2xl">
-          Meet our talented team of painters for this exhibition, each bringing
-          a unique voice and perspective to the canvas.{" "}
+          Meet our talented team for this exhibition, each bringing a unique
+          voice and perspective to the canvas.{" "}
         </p>
       </div>
       <div className="">
