@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoCloseOutline } from "react-icons/io5";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
   const [toggle, setToggle] = useState(false);
@@ -13,19 +14,25 @@ const Nav = () => {
       <div className="hidden md:flex md:items-center md:justify-between ">
         <ul className="h-full w-3/4 flex items-center justify-start gap-24 bg-white lg:text-xl">
           <a href="#home" className="cursor-pointer">
-            <li>Home</li>
+            <li className=" hover:underline hover:underline-offset-4">Home</li>
           </a>
           <a href="collection" className="cursor-pointer">
-            <li>Collection</li>
+            <li className=" hover:underline hover:underline-offset-4">
+              Collection
+            </li>
           </a>
         </ul>
-        <p className="font-bold lg:text-2xl">Orion Gallery</p>
+        <Link to={"/"} className="font-bold lg:text-2xl">
+          Orion Gallery
+        </Link>
         <ul className="h-full w-3/4 flex items-center justify-end gap-24 bg-white lg:text-xl">
           <a href="#event" className="cursor-pointer">
-            <li>Event</li>
+            <li className=" hover:underline hover:underline-offset-4">Event</li>
           </a>
           <a href="#about" className="cursor-pointer">
-            <li>About Us</li>
+            <li className=" hover:underline hover:underline-offset-4">
+              About Us
+            </li>
           </a>
         </ul>
       </div>

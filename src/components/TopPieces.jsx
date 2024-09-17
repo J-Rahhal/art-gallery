@@ -12,7 +12,7 @@ const TopPieces = () => {
         <h3 className="text-3xl font-bold my-4 lg:text-6xl overflow-y-hidden">
           Top Three Pieces
         </h3>
-        <p className="text-sm md:text-md lg:text-2xl">
+        <p className="text-sm md:text-md lg:text-2xl lg:w-1/2">
           Our exhibition showcases a diverse collection of stunning paintings,
           each representing a unique blend of styles and artistic expressions.
           From abstract masterpieces to lifelike portraits, the variety in form
